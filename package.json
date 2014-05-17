@@ -1,0 +1,35 @@
+{
+  "name": "animationevents",
+  "version": "0.0.0",
+  "main": "lib/animationevents.js",
+  "description": "Animation and transition event name for working browser",
+  "homepage": "https://github.com/HarrisSidiropoulos/animationevents",
+  "bugs": "https://github.com/HarrisSidiropoulos/animationevents/issues",
+  "author": {
+    "name": "",
+    "email": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HarrisSidiropoulos/animationevents"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [],
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1",
+    "jshint-stylish": "^0.2.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "dependencies": {
+    "modernizrify": "git://github.com/HarrisSidiropoulos/modernizrify"
+  }
+}
